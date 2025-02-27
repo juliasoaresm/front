@@ -1,0 +1,66 @@
+header {
+    background-color: #6cb180;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+    padding: 20px 10px;
+    padding-left: 10px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+footer {
+    background-color: #6cb180;
+}
+
+#meio {
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 40px;
+}
+
+#lista {
+    border: #6cb180;
+}
+
+#market-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#market-list li {
+    text-align: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#market-list li:last-child {
+    border-bottom: none; /* Remove linha do último item */
+}
+
+#market-list li img {
+    width: 50px;
+    height: auto;
+}
+
+.market-card {
+    background-color: white; /* Fundo branco para destaque */
+    border: 2px solid green; /* Borda verde */
+    border-radius: 2px; /* Cantos arredondados */
+    padding: 15px; /* Espaço interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 250px; /* Largura máxima */
+    text-align: center; /* Centraliza o título */
+    margin: 100px auto; /* Centraliza no meio da tela */
+}
+
+.market-card h2 {
+    background-color: green; /* Fundo verde no título */
+    color: white; /* Texto branco */
+    padding: 8px; /* Espaço interno */
+    margin: 0 0 10px 0; /* Remove margem superior e adiciona inferior */
+}
