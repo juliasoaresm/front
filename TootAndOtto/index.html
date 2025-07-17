@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TootAndOtto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="tootandottoICON.png" type="image">
+</head>
+<body>
+    <div id="top">
+        <h1>TootAndOtto</h1>
+        <h2 id="winner"></h2>
+    </div>
+
+    <div id="container">
+
+        <div class="caixa" id="toot">
+            <h3 id="tootbox">TOOT BOX</h3>
+            <p>T: <span id="toot-t">6</span></p>
+            <p>O: <span id="toot-o">6</span></p>
+        </div>
+
+        <div>
+            <div id="mensagemjogo">
+                <h2 id="mensagem">Bem-vindo a TootAndOtto!</h2>
+                <div id="peca-escolhida"></div>
+            </div>
+            <div id="selecionaPeca">
+                <p>Escolha sua peça:</p>
+                <button onclick="selectPiece('T')">T</button>
+                <button onclick="selectPiece('O')">O</button>
+            </div>
+            <div id="controle">
+                <button onclick="startGame()">Iniciar Jogo</button>
+                <button onclick="resetGame()">Recomeçar Jogo</button>
+            </div>
+            <div id="timer">Tempo restante para jogada: <span id="timeleft">30</span>s</div>
+            
+            <div id="board"></div>
+        </div>
+
+        <div class="caixa" id="otto">
+            <h3 id="ottobox">OTTO BOX</h3>
+            <p>T: <span id="otto-t">6</span></p>
+            <p>O: <span id="otto-o">6</span></p>
+        </div>
+
+    </div>
+</body>
+</html>
